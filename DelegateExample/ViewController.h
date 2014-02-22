@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TimerClass.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <TimerProtocolDelegate> {
+    
+}
+@property (weak, nonatomic) IBOutlet UILabel *lblStatus;
 
 @end

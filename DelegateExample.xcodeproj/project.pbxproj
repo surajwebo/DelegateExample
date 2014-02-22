@@ -21,6 +21,7 @@
 		6960682A18B784FB0037415E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6960680C18B784FA0037415E /* UIKit.framework */; };
 		6960683218B784FB0037415E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6960683018B784FB0037415E /* InfoPlist.strings */; };
 		6960683418B784FB0037415E /* DelegateExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960683318B784FB0037415E /* DelegateExampleTests.m */; };
+		6960683F18B785260037415E /* TimerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6960683E18B785260037415E /* TimerClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6960682F18B784FB0037415E /* DelegateExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DelegateExampleTests-Info.plist"; sourceTree = "<group>"; };
 		6960683118B784FB0037415E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6960683318B784FB0037415E /* DelegateExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateExampleTests.m; sourceTree = "<group>"; };
+		6960683D18B785260037415E /* TimerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerClass.h; sourceTree = "<group>"; };
+		6960683E18B785260037415E /* TimerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6960681A18B784FA0037415E /* Main.storyboard */,
 				6960681D18B784FA0037415E /* ViewController.h */,
 				6960681E18B784FA0037415E /* ViewController.m */,
+				6960683D18B785260037415E /* TimerClass.h */,
+				6960683E18B785260037415E /* TimerClass.m */,
 				6960682018B784FB0037415E /* Images.xcassets */,
 				6960680F18B784FA0037415E /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			files = (
 				6960681F18B784FA0037415E /* ViewController.m in Sources */,
 				6960681918B784FA0037415E /* AppDelegate.m in Sources */,
+				6960683F18B785260037415E /* TimerClass.m in Sources */,
 				6960681518B784FA0037415E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

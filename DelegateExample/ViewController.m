@@ -17,13 +17,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    TimerClass *timerClass = [[TimerClass alloc] init];
+    timerClass.delegate = self;
+    [self.lblStatus setText:@"Processing..."];
+    [timerClass startPrcess];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - TimerClass Delegate
+-(void)processCompleted {
+    [self.lblStatus setText:@"Process Complete"];
 }
 
 @end
